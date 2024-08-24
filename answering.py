@@ -7,11 +7,11 @@ processor = BlipProcessor.from_pretrained("Salesforce/blip-vqa-base")
 model = BlipForQuestionAnswering.from_pretrained("Salesforce/blip-vqa-base")
 
 # Load the image from file
-image_path = 'captured_image.png'  # Specify the path to your image file
-raw_image = Image.open(image_path).convert('RGB')
+image_url = 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/demo.jpg' 
+raw_image = Image.open(requests.get(image_url, stream=True).raw).convert('RGB')
 
 # Ask a question about the image
-question = "shirt color in picture?"
+question = "what is the background in picture?"
 inputs = processor(raw_image, question, return_tensors="pt")
 
 # Generate the answer using the model
