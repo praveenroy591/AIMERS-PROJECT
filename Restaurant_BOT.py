@@ -9,7 +9,7 @@ feedbacks = {}
 
 # Sample Menu with prices in INR
 menu = """
-Welcome to Our Chinnari Restaurant!
+Welcome to Our Chinnari Restaurant!!!
 
 Starters:
 1. Caesar Salad - ₹738
