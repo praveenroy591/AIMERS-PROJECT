@@ -1,1 +1,1 @@
-# using  concept of artificial intelligence , i created  my projects
+# Using  concept of artificial intelligence , I created  my projects
