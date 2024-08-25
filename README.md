@@ -1,1 +1,1 @@
-# day3
+# used artificial intelligence
