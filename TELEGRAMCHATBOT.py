@@ -3,7 +3,7 @@ import google.generativeai as genai
 from datetime import datetime
 
 # Configure Google Generative AI API
-genai.configure(api_key="AIzaSyCk24LgF1T9VW4fqltn8rubr2wYFFmJpEk")
+genai.configure(api_key="Google Generative AI API")
 
 # Set up the model
 generation_config = {
@@ -39,7 +39,7 @@ model = genai.GenerativeModel(model_name="gemini-1.5-pro-latest",
 convo = model.start_chat(history=[])
 
 # Initialize Telegram Bot
-bot = telebot.TeleBot("7489829095:AAF9Xr3ZCQSgF2peoc1_iumqKPe3r8IfiEk")
+bot = telebot.TeleBot("telegram token")
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
