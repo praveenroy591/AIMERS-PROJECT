@@ -1,1 +1,2 @@
-# Using  concept of artificial intelligence , I created  my projects
+# Restaurant_BOT.py
+Description: This script likely serves as the backend for a restaurant chatbot with use of telegram, which may handle customer inquiries about the menu, make reservations, or provide information about restaurant hours and locations. It might use natural language processing (NLP) to understand customer requests and respond appropriately. It could also integrate with a database to manage reservations.
