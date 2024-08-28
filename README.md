@@ -1,2 +1,2 @@
 # Restaurant_BOT.py
-Description: This script likely serves as the backend for a restaurant chatbot with use of telegram, which may handle customer inquiries about the menu, make reservations, or provide information about restaurant hours and locations. It might use natural language processing (NLP) to understand customer requests and respond appropriately. It could also integrate with a database to manage reservations.
+Description: the Restaurant_BOT.py script is designed to function as a chatbot on the Telegram platform, utilizing Telegram's bot API. The bot helps users interact with a restaurant service, allowing them to browse the menu, make reservations, and inquire about restaurant details such as location, hours of operation
